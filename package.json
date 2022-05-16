@@ -1,0 +1,27 @@
+{
+  "name": "otelul-galati",
+  "private": false,
+  "version": "0.0.2",
+  "main": "dist/otelul-galati.js",
+  "exports": {
+    ".": "./dist/otelul-galati.js"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9",
+    "typescript": "^4.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
